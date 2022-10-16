@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.top {
+    background-color: #5083b6;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    font-size: 25px;
+}
+
+#colorCode {
+    font-size: 40px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30px;
+}
+
+.gameBtn {
+    padding: 2px;
+    height: 26px;
+    width: fit-content;
+    color: #5083b6;
+    font-weight: bold;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    cursor: pointer;
+}
+
+.gameBtn.selected,
+.gameBtn:hover {
+    background-color: #5083b6;
+    color: white;
+}
+
+#new {
+    margin-right: 25%;
+}
+
+#easy {
+    margin-right: 5px;
+}
+
+.guessingArea {
+    height: calc(100vh - 180px);
+    width: 100%;
+    background-color: #232323;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.colorsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    justify-content: center;
+}
+
+.color {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
